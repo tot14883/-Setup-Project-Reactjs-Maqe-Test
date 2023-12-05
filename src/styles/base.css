@@ -1,0 +1,39 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+.card-title {
+	display: flex;
+	padding: 8px 16px 8px 16px;
+	border-bottom: 1px solid #EEEEEE;
+	align-items: center;
+}
+
+.highlight {
+	color: #F28164;
+	margin-left: 4px;
+}
+
+.posted {
+	color: #889CAC;
+	margin-left: 4px;
+}
+
+.image-avatar {
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+}
+
+.card-body {
+	display: flex;
+	padding: 16px 16px 16px 16px;
+}
+
+.card-detail {
+	display: flex;
+	flex-direction: column;
+	padding-left: 24px;
+}

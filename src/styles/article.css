@@ -1,0 +1,29 @@
+.article-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.article-timezone {
+	margin-top: 24px;
+}
+
+div > .card {
+	margin-top: 24px;
+}
+
+div > .card:nth-child(even) {
+	background-color: #CCECFF;
+}
+
+div > .card:hover {
+	background-color: #3d6a84;
+}
+
+.article-detail {
+	border-top: 1px solid #EEEEEE;
+	background-color: white;
+}
+
+.article-title {
+	padding-left: 16px;
+}
